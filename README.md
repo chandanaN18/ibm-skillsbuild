@@ -86,12 +86,12 @@ Then visit `http://localhost:8080/frontend/`.
 
 ## Roadmap
 
-- [x] Project structure and starter files
-- [ ] Backend placeholder route (`/simplify`)
-- [ ] IBM Granite / watsonx AI integration
-- [ ] Proficiency-level prompt engineering
-- [ ] Improved UI / response formatting
-- [ ] Deployment
+-  Project structure and starter files
+-  Backend placeholder route (`/simplify`)
+-  IBM Granite / watsonx AI integration
+-  Proficiency-level prompt engineering
+-  Improved UI / response formatting
+-  Deployment
 
 ---
 
