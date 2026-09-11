@@ -1,0 +1,17 @@
+# =============================================
+# Course Content Simplification Agent
+# Backend Python Dependencies
+# =============================================
+# Install with:  pip install -r requirements.txt
+
+# Web framework
+flask==3.0.3
+
+# Cross-Origin Resource Sharing (allows frontend to call the backend)
+flask-cors==4.0.1
+
+# HTTP requests library (useful for calling external AI APIs later)
+requests==2.32.3
+
+# Environment variable management (for storing API keys securely)
+python-dotenv==1.0.1

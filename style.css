@@ -1,0 +1,154 @@
+/* =============================================
+   Course Content Simplification Agent — Styles
+   ============================================= */
+
+/* --- Reset & Base --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  background-color: #f0f4f8;
+  color: #1f2328;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Header --- */
+header {
+  background-color: #1a56db;
+  color: #ffffff;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+header .subtitle {
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+/* --- Main Content --- */
+main {
+  flex: 1;
+  max-width: 760px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* --- Card --- */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* --- Labels --- */
+label {
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.95rem;
+}
+
+/* --- Select Dropdown --- */
+select {
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background-color: #f9fafb;
+  color: #1f2328;
+  cursor: pointer;
+  max-width: 280px;
+}
+
+select:focus {
+  outline: 2px solid #1a56db;
+  outline-offset: 2px;
+}
+
+/* --- Textarea --- */
+textarea {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  line-height: 1.6;
+  resize: vertical;
+  background-color: #f9fafb;
+  color: #1f2328;
+  width: 100%;
+}
+
+textarea:focus {
+  outline: 2px solid #1a56db;
+  outline-offset: 2px;
+}
+
+/* --- Button --- */
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+button#simplify-btn {
+  background-color: #1a56db;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.65rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button#simplify-btn:hover {
+  background-color: #1648c0;
+}
+
+button#simplify-btn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* --- Output Box --- */
+.output-box {
+  background-color: #f7f8fa;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 1rem;
+  min-height: 80px;
+  white-space: pre-wrap;
+  font-size: 0.95rem;
+  color: #1f2328;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 1.25rem;
+  font-size: 0.85rem;
+  color: #57606a;
+  border-top: 1px solid #e5e7eb;
+  background-color: #ffffff;
+}

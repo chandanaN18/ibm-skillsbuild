@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Course Content Simplification Agent</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>Course Content Simplification Agent</h1>
+            <p>Understand academic content at your own learning level</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+
+            <h2>📚 Simplify Course Content</h2>
+
+            <label for="subject">Subject</label>
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="Example: Computer Networks"
+            >
+
+            <label for="level">Learner Level</label>
+
+            <select id="level">
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+                <option value="Expert">Expert</option>
+            </select>
+
+            <label for="content">Academic Content</label>
+
+            <textarea
+                id="content"
+                placeholder="Paste your textbook or faculty notes here..."
+            ></textarea>
+
+            <button id="simplifyBtn" onclick="simplifyContent()">
+                ✨ Simplify Content
+            </button>
+
+            <p id="status"></p>
+
+        </section>
+
+
+        <section class="card output-card">
+
+            <h2>💡 Simplified Explanation</h2>
+
+            <div id="output">
+
+                <p class="placeholder">
+                    Your personalized explanation will appear here.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Course Content Simplification Agent | IBM Granite</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
